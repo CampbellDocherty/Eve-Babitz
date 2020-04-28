@@ -4,8 +4,12 @@ body{
     color: white;
 }
 
-h2 {
+h2, p {
     color: black;
+}
+
+.key-word {
+    color: blue;
 }
 
 .header {
