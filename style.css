@@ -4,6 +4,10 @@ body{
     color: white;
 }
 
+h2 {
+    color: black;
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -56,8 +60,10 @@ body{
     opacity: 1;
   }
 
-  div{
+  #map {
       margin: 0 auto;
+      width: 80vw;
+      height: 70vh;
   }
 
 
