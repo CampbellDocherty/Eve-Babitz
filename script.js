@@ -8,14 +8,18 @@ function initMap() {
     zoom: 10,
   });
 
-  let redMarkers = [];
+  let slowDaysMarkers = [];
+  let evesHollywoodMarkers = [];
+  let charmingMarkers = [];
 
-  let red = 'http://maps.google.com/mapfiles/ms/icons/red-dot.png'
+  let red = 'http://maps.google.com/mapfiles/ms/icons/red-dot.png';
+  let blue = "http://maps.google.com/mapfiles/ms/icons/blue-dot.png";
+  let green = "http://maps.google.com/mapfiles/ms/icons/green-dot.png";
 
-  let EvesHollywood = [
+  let evesHollywood = [
     {
       position: new google.maps.LatLng(34.081792, -118.389374),
-      icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+      icon: blue,
       content: `
         <h2>Troubadour</h2>
         <p>The <span class='key-word'>Troubadour</span> was great!</p>
@@ -37,7 +41,7 @@ function initMap() {
   let charming = [
     {
       position: new google.maps.LatLng(34.098073, -118.364694),
-      icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+      icon: green,
       content: `
       <h2>Schwab's Pharmacy</h2>
       <p><span class='key-word'>Schwab's Pharmacy</span> was alwasy fun!</p>
@@ -45,8 +49,8 @@ function initMap() {
     },
   ];
 
-  for (let i = 0; i < EvesHollywood.length; i++) {
-    addMarker(EvesHollywood[i]);
+  for (let i = 0; i < evesHollywood.length; i++) {
+    addMarker(evesHollywood[i]);
   }
 
   for (let i = 0; i < slowDays.length; i++) {
@@ -65,10 +69,12 @@ function initMap() {
     });
 
     if (location.icon.includes('red')) {
-      redMarkers.push(marker);
+      slowDaysMarkers.push(marker);
+    } else if (location.icon.includes('blue')){
+      evesHollywoodMarkers.push(marker)
+    } else {
+      charmingMarkers.push(marker)
     }
-
-    console.log(redMarkers)
 
     if (location.content) {
       let infoWindow = new google.maps.InfoWindow({
@@ -85,18 +91,49 @@ function initMap() {
     item.addEventListener("click", (event) => {
       if (event.target.id === "slow") {
         showSlowMarkers();
+      } else if (event.target.id === 'charming') {
+        showCharmingMarkers();
+      } else if (event.target.id === 'hollywood') {
+        showHollywoodMarkers();
+      } else {
+        showAllMarkers();
       }
     });
   });
   
   function showSlowMarkers() {
-    for (var i = 0; i < EvesHollywood.length; i++) {
-      EvesHollywood[i].setMap(null);
+    let notSlowMarkers = [...evesHollywoodMarkers, ...charmingMarkers];
+
+    slowDaysMarkers.forEach(marker => marker.setMap(losAngelesMap))
+    
+    for (var i = 0; i < notSlowMarkers.length; i++) {
+      notSlowMarkers[i].setMap(null);
     }
-  
-    for (var i = 0; i < charming.length; i++) {
-      charming[i].setMap(null);
+  }
+
+  function showCharmingMarkers() {
+    let notCharmingMarkers = [...evesHollywoodMarkers, ...slowDaysMarkers];
+
+    charmingMarkers.forEach(marker => marker.setMap(losAngelesMap))
+    
+    for (var i = 0; i < notCharmingMarkers.length; i++) {
+      notCharmingMarkers[i].setMap(null);
     }
+  }
+
+  function showHollywoodMarkers() {
+    let notHollywoodMarkers = [...charmingMarkers, ...slowDaysMarkers];
+
+    evesHollywoodMarkers.forEach(marker => marker.setMap(losAngelesMap))
+    
+    for (var i = 0; i < notHollywoodMarkers.length; i++) {
+      notHollywoodMarkers[i].setMap(null);
+    }
+  }
+
+  function showAllMarkers() {
+    let allMarkers = [...charmingMarkers, ...evesHollywoodMarkers, ...slowDaysMarkers];
+    allMarkers.forEach(marker => marker.setMap(losAngelesMap));
   }
 }
 
