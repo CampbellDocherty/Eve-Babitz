@@ -8,9 +8,6 @@ function initMap() {
     zoom: 11,
   });
 
-  let slowDaysMarkers = [];
-  let evesHollywoodMarkers = [];
-  let charmingMarkers = [];
   let infoWindows = [];
   let markers = [];
 
@@ -688,6 +685,7 @@ function initMap() {
 
   listItems.forEach((item) => {
     item.addEventListener("click", (event) => {
+      infoWindows.forEach(info => info.close())
       showMarkers(event.target.id);
     });
   });
