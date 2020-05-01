@@ -61,7 +61,7 @@ function initMap() {
   let slowDays = [
     {
       position: new google.maps.LatLng(33.84383, -118.16778),
-      icon: icons.landmark,   
+      icon: icons.landmark,
       book: "slowDays",
       content: `
       <h2>Forest Lawn</h2>
@@ -70,7 +70,7 @@ function initMap() {
     },
     {
       position: new google.maps.LatLng(35.37329, -119.01871),
-      icon: icons.area,   
+      icon: icons.area,
       book: "slowDays",
       content: `
       <h2>Bakersfield</h2>
@@ -79,7 +79,7 @@ function initMap() {
     },
     {
       position: new google.maps.LatLng(34.074049, -118.240014),
-      icon: icons.landmark,   
+      icon: icons.landmark,
       book: "slowDays",
       content: `
       <h2>Dodger Stadium</h2>
@@ -665,16 +665,9 @@ function initMap() {
     },
   ];
 
-  for (let i = 0; i < evesHollywood.length; i++) {
-    addMarker(evesHollywood[i]);
-  }
-
-  for (let i = 0; i < slowDays.length; i++) {
-    addMarker(slowDays[i]);
-  }
-
-  for (let i = 0; i < charming.length; i++) {
-    addMarker(charming[i]);
+  let allBookLocations = [...charming, ...slowDays, ...evesHollywood];
+  for (let i = 0; i < allBookLocations.length; i++) {
+    addMarker(allBookLocations[i]);
   }
 
   function addMarker(location) {
@@ -702,7 +695,7 @@ function initMap() {
     let name = icons[key].name;
     let icon = icons[key].icon;
     let div = document.createElement("div");
-    div.setAttribute('class', 'key-item')
+    div.setAttribute("class", "key-item");
     div.innerHTML = `<img src="${icon}">` + name;
     legend.appendChild(div);
   }
@@ -721,12 +714,12 @@ function initMap() {
     });
   });
 
-  let keyItems = document.querySelectorAll('.key-item')
-  keyItems.forEach(item => {
-    item.addEventListener('click', (event) => {
-      showKeyMarkers(event.target.textContent)
-    })
-  })
+  let keyItems = document.querySelectorAll(".key-item");
+  keyItems.forEach((item) => {
+    item.addEventListener("click", (event) => {
+      showKeyMarkers(event.target.textContent);
+    });
+  });
 
   listItems.forEach((item) => {
     item.addEventListener("click", (event) => {
@@ -751,8 +744,8 @@ function initMap() {
   function showKeyMarkers(key) {
     for (let i = 0; i < markers.length; i++) {
       markers[i].setMap(null);
-      if (markers[i].type == key){
-        markers[i].setMap(losAngelesMap)
+      if (markers[i].type == key) {
+        markers[i].setMap(losAngelesMap);
       }
     }
   }
