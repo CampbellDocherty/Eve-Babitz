@@ -53,7 +53,7 @@ function initMap() {
       `,
     },
     {
-      position: new google.maps.LatLng(34.07385, -118.49119),
+      position: new google.maps.LatLng(34.074049, -118.240014),
       icon: landmark,
       book: "slowDays",
       content: `
@@ -671,12 +671,13 @@ function initMap() {
       let infoWindow = new google.maps.InfoWindow({
         content: location.content,
       });
-      
       marker.addListener("click", () => {
           infoWindow.open(map, marker);
         });
       }
-  }
+    }
+
+  // push all markers to one array, set map to null on all without correct id 
 
   listItems.forEach((item) => {
     item.addEventListener("click", (event) => {
