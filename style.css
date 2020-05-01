@@ -13,10 +13,6 @@ ul {
     list-style: none;
 }
 
-.key-word {
-  color: blue;
-}
-
 .header {
   display: flex;
   justify-content: center;
@@ -46,6 +42,7 @@ ul {
   position: relative;
   padding: 1rem;
   height: 100%;
+  font-weight: 200;
 }
 
 .book-list_item:hover {
@@ -72,18 +69,30 @@ ul {
   opacity: 1;
 }
 
+.mapKey {
+  font-size: 1.55rem;
+}
+
+.key-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.key-list_item {
+  padding: 0.25rem;
+}
+
+img {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
 #map {
   margin: 0 auto;
   width: 80vw;
   height: 70vh;
-}
-
-.mapKey {
-    content: '';
-    width: 20rem;
-    height: 20rem;
-    font-size: 1.55rem;
-    color: white;
 }
 
 @media only screen and (max-width: 800px) {
