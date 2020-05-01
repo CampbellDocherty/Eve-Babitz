@@ -10,7 +10,7 @@ p {
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .header {
@@ -69,24 +69,23 @@ ul {
   opacity: 1;
 }
 
-.mapKey {
-  font-size: 1.55rem;
+#legend {
+  font-size: 1rem;
+  background: hsla(0,0%,100%, 0.8);
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  border-radius: 8px;
 }
 
-.key-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.key-list_item {
-  padding: 0.25rem;
+.key-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 img {
-  width: 1.75rem;
-  height: 1.75rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 #map {
@@ -96,7 +95,7 @@ img {
 }
 
 @media only screen and (max-width: 800px) {
-    .book-list {
-        flex-direction: column;
-      }
+  .book-list {
+    flex-direction: column;
+  }
 }
