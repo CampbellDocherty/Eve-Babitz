@@ -670,20 +670,21 @@ function initMap() {
       });
 
       infoWindows.push(infoWindow);
-
-      markers.forEach((marker) => {
-        marker.addEventListener("click", () => {
-          
-        })
-      })
-
-      marker.addListener("click", () => {
-          infoWindow.open(map, marker);
-        });
     }
   }
 
- 
+  markers.forEach((marker) => {
+    marker.addListener("click", () => {
+      let index = markers.indexOf(marker)
+      for (let i = 0; i < infoWindows.length; i++){
+        if (i === index){
+          infoWindows[i].open(map, markers[i])
+        } else {
+          infoWindows[i].close()
+        }
+      }
+    });
+  });
 
   listItems.forEach((item) => {
     item.addEventListener("click", (event) => {
