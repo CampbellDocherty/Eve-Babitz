@@ -14,7 +14,7 @@ function initMap() {
   let icons = {
     area: {
       icon: "http://maps.google.com/mapfiles/ms/icons/red-dot.png",
-      name: "Area",
+      name: "Store",
     },
     food: {
       icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
@@ -42,18 +42,556 @@ function initMap() {
     },
     misc: {
       icon: "http://maps.google.com/mapfiles/ms/icons/ltblue-dot.png",
-      name: "Misc.",
+      name: "Misc",
+    },
+    residence: {
+      icon: "http://maps.google.com/mapfiles/kml/pal4/icon47.png",
+      name: "Residence",
     },
   };
 
   let charming = [
     {
-      position: new google.maps.LatLng(34.081792, -118.389374),
+      position: new google.maps.LatLng(34.08178, -118.38907),
       icon: icons.food,
       book: "charming",
       content: `
-        <h2>Troubadour</h2>
-        <p>The <span class='key-word'>Troubadour</span> was great!</p>
+        <h2>Dan Tana’s</h2>
+        <p>5</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.08379, -118.32083),
+      icon: icons.landmark,
+      book: "charming",
+      content: `
+        <h2>Paramount Studios</h2>
+        <p>11</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.08374, -118.32048),
+      icon: icons.food,
+      book: "charming",
+      content: `
+        <h2>Nickodell</h2>
+        <p>12, 136</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.09916, -118.34005),
+      icon: icons.school,
+      book: "charming",
+      content: `
+        <h2>Hollywood High School</h2>
+        <p>17</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.10128, -118.33627),
+      icon: icons.landmark,
+      book: "charming",
+      content: `
+        <h2>The Las Palmas newsstand (Universal News Agency) </h2>
+        <p>18</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.09085, -118.37463),
+      icon: icons.food,
+      book: "charming",
+      content: `
+        <h2>Barney’s Beanery</h2>
+        <p>37, 239</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.08223, -118.31574),
+      icon: icons.landmark,
+      book: "charming",
+      content: `
+        <h2>The Polar Palace</h2>
+        <p>71</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.098726, -118.348465),
+      icon: icons.store,
+      book: "charming",
+      content: `
+        <h2>Ralph’s</h2>
+        <p>64, 89, 147</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(33.99361, -118.4799),
+      icon: icons.store,
+      book: "charming",
+      content: `
+        <h2>Venice Beach</h2>
+        <p>101</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(33.99514, -118.47694),
+      icon: icons.store,
+      book: "charming",
+      content: `
+        <h2>Main Street</h2>
+        <p>101/2</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.081846, -118.389471),
+      icon: icons.nightlife,
+      book: "charming",
+      content: `
+        <h2>The Troubadour</h2>
+        <p>105, 176</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.08148, -118.414168),
+      icon: icons.hotel,
+      book: "charming",
+      content: `
+        <h2>The Beverly Hills Hotel</h2>
+        <p>43, 151</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.067265, -118.400225),
+      icon: icons.hotel,
+      book: "charming",
+      content: `
+        <h2>The Beverly Wilshire</h2>
+        <p>43</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.098083, -118.368192),
+      icon: icons.hotel,
+      book: "charming",
+      content: `
+        <h2>Chateau Marmont</h2>
+        <p>43</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.01945, -118.23995),
+      icon: icons.store,
+      book: "charming",
+      content: `
+        <h2>Santa Monica</h2>
+        <p>101</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.09084, -118.38574),
+      icon: icons.nightlife,
+      book: "charming",
+      content: `
+        <h2>Whisky a Go Go</h2>
+        <p>105</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.091079, -118.386195),
+      icon: icons.nightlife,
+      book: "charming",
+      content: `
+        <h2>The London Fog</h2>
+        <p>105</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.092917, -118.378498),
+      icon: icons.nightlife,
+      book: "charming",
+      content: `
+        <h2>The Trip</h2>
+        <p>105</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.095455, -118.374111),
+      icon: icons.nightlife,
+      book: "charming",
+      content: `
+        <h2>Ciro’s</h2>
+        <p>105</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.08869, -118.3788),
+      icon: icons.hotel,
+      book: "charming",
+      content: `
+        <h2>Tropicana Motel</h2>
+        <p>106</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.089985, -118.376452),
+      icon: icons.hotel,
+      book: "charming",
+      content: `
+        <h2>Alta Cienga Motel</h2>
+        <p>112</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.014041, -118.49594),
+      icon: icons.misc,
+      book: "charming",
+      content: `
+        <h2>Gold’s Gym</h2>
+        <p>127</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.067512, -118.400801),
+      icon: icons.store,
+      book: "charming",
+      content: `
+        <h2>Tiffany’s</h2>
+        <p>138</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.019406, -118.506483),
+      icon: icons.store,
+      book: "charming",
+      content: `
+        <h2>Sorrento Beach</h2>
+        <p>143</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.101934, -118.338231),
+      icon: icons.store,
+      book: "charming",
+      content: `
+        <h2>Snow White’s Cafe</h2>
+        <p>146</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.113177, -118.274455),
+      icon: icons.landmark,
+      book: "charming",
+      content: `
+        <h2>Convent</h2>
+        <p>156</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.113177, -118.274455),
+      icon: icons.misc,
+      book: "charming",
+      content: `
+        <h2>Yoga Center (approx.) </h2>
+        <p>161</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.099581, -118.332878),
+      icon: icons.misc,
+      book: "charming",
+      content: `
+        <h2>Hollywood YMCA (approx.) </h2>
+        <p>164, 167</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.091658, -118.381119),
+      icon: icons.food,
+      book: "charming",
+      content: `
+        <h2> Le Dôme </h2>
+        <p>165, 331</p>
+        `,
+    },
+
+    {
+      position: new google.maps.LatLng(34.092185, -118.380039),
+      icon: icons.store,
+      book: "charming",
+      content: `
+        <h2>Sunset Strip</h2>
+        <p>173</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.073701, -118.276688),
+      icon: icons.nightlife,
+      book: "charming",
+      content: `
+        <h2>Helena’s</h2>
+        <p>179</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.105764, -118.372174),
+      icon: icons.residence,
+      book: "charming",
+      content: `
+        <h2>House on Kirkwood (approx.) </h2>
+        <p>180</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.105998, -118.318468),
+      icon: icons.misc,
+      book: "charming",
+      content: `
+        <h2>a Laundromat</h2>
+        <p>181</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.084636, -118.385723),
+      icon: icons.misc,
+      book: "charming",
+      content: `
+        <h2>Margo Leavin Gallery</h2>
+        <p>189</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.064092, -118.359272),
+      icon: icons.misc,
+      book: "charming",
+      content: `
+        <h2>L.A. County Museum of Art</h2>
+        <p>191</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.129081, -118.114524),
+      icon: icons.misc,
+      book: "charming",
+      content: `
+        <h2>Henry E. Huntington Library and Art Gallery</h2>
+        <p>191</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.084345, -118.376811),
+      icon: icons.misc,
+      book: "charming",
+      content: `
+        <h2>Ferus Gallery</h2>
+        <p>192</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.040833, -118.447356),
+      icon: icons.misc,
+      book: "charming",
+      content: `
+        <h2>James Corcoran Gallery</h2>
+        <p>195</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.083465, -118.367415),
+      icon: icons.nightlife,
+      book: "charming",
+      content: `
+        <h2>The Ash Grove</h2>
+        <p>221</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.089777, -118.412753),
+      icon: icons.area,
+      book: "charming",
+      content: `
+        <h2>Coldwater</h2>
+        <p>224</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.059507, -118.376145),
+      icon: icons.food,
+      book: "charming",
+      content: `
+        <h2>Ships</h2>
+        <p>224 (one possible location but closest to her home)</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.088353, -118.292688),
+      icon: icons.school,
+      book: "charming",
+      content: `
+        <h2>Los Angeles City College</h2>
+        <p>239</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.097309, -118.317996),
+      icon: icons.residence,
+      book: "charming",
+      content: `
+        <h2>Home on Bronson Ave. (approx.) </h2>
+        <p>241</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.102132, -118.335441),
+      map: losAngelesMap,
+      icon: icons.food,
+      book: "charming",
+      content: `
+        <h2>Musso and Frank Grill</h2>
+        <p>242</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.146229, -118.159162),
+      icon: icons.misc,
+      book: "charming",
+      content: `
+        <h2>Pasadena Art Museum</h2>
+        <p>246</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.018535, -118.49336),
+      icon: icons.misc,
+      book: "charming",
+      content: `
+        <h2>Santa Monica Public Library</h2>
+        <p>249</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.015768, -118.491965),
+      icon: icons.misc,
+      book: "charming",
+      content: `
+        <h2>Fred Segal’s</h2>
+        <p>250</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.025831, -118.34978),
+      icon: icons.misc,
+      book: "charming",
+      content: `
+        <h2>Shoshana Wayne Gallery</h2>
+        <p>252</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.058546, -118.406821),
+      icon: icons.landmark,
+      book: "charming",
+      content: `
+        <h2>Roxbury Park</h2>
+        <p>307</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.147521, -118.425765),
+      icon: icons.area,
+      book: "charming",
+      content: `
+        <h2>Sherman Oaks</h2>
+        <p>308</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.037882, -118.676998),
+      icon: icons.food,
+      book: "charming",
+      content: `
+        <h2>Malibu Inn</h2>
+        <p>318</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.090465, -118.384932),
+      icon: icons.nightlife,
+      book: "charming",
+      content: `
+        <h2>The Viper Room</h2>
+        <p>333</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.437557, -119.254845),
+      icon: icons.hotel,
+      book: "charming",
+      content: `
+        <h2>Ojai Valley Inn</h2>
+        <p>342</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.124539, -118.149937),
+      icon: icons.food,
+      book: "charming",
+      content: `
+        <h2>Theicons.food</h2>
+        <p>357</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.059647, -118.20814),
+      icon: icons.misc,
+      book: "charming",
+      content: `
+        <h2>Los Angeles County-USC Medical Center</h2>
+        <p>359</p>
+        `,
+    },
+
+    {
+      Position: new google.maps.LatLng(34.14635, -118.256811),
+      icon: icons.store,
+      book: "charming",
+      content: `
+        <h2>The Glendale Galleria</h2>
+        <p>364</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.049332, -118.217185),
+      icon: icons.misc,
+      book: "charming",
+      content: `
+        <h2>White Memorial</h2>
+        <p>366</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.06745, -118.399159),
+      icon: icons.store,
+      book: "charming",
+      content: `
+        <h2>Fiorucci</h2>
+        <p>375</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.105265, -118.319238),
+      icon: icons.area,
+      book: "charming",
+      content: `
+        <h2>Franklin Ave.</h2>
+        <p>291</p>
+        `,
+    },
+    {
+      Position: new google.maps.LatLng(34.095384, -118.291777),
+      icon: icons.area,
+      book: "charming",
+      content: `
+        <h2>Vermont Ave.</h2>
+        <p>291</p>
         `,
     },
   ];
@@ -100,7 +638,7 @@ function initMap() {
       icon: icons.hotel,
       book: "slowDays",
       content: `
-      <h2>The Landmark Motor hotel</h2>
+      <h2>The icons.landmark Motor hotel</h2>
       <p>54</p>
       `,
     },
@@ -599,7 +1137,7 @@ function initMap() {
       icon: icons.hotel,
       book: "evesHollywood",
       content: `
-      <h2>The Landmark Motel</h2>
+      <h2>The icons.landmark Motel</h2>
       <p>272</p>
       `,
     },
@@ -661,6 +1199,70 @@ function initMap() {
       content: `
       <h2>Benihana</h2>
       <p>288</p>
+      `,
+    },
+    {
+      position: new google.maps.LatLng(34.088353, -118.292688),
+      icon: icons.school,
+      book: 'evesHollywood',
+      content: `
+      <h2>Los Angeles City College</h2>
+      <p>154</p>
+      `,
+    },
+
+    {
+      position: new google.maps.LatLng(33.79095, -118.399684),
+      icon: icons.residence,
+      book: 'evesHollywood',
+      content: `
+      <h2>Palos Verdes (the house of Joseph Szigeti)</h2>
+      <p>6</p>
+      `,
+    },
+    {
+      position: new google.maps.LatLng(34.090942, -118.388248),
+      icon: icons.nightlife,
+      book: 'evesHollywood',
+      content: `
+      <h2>The Rainbow</h2>
+      <p>246</p>
+      `,
+    },
+    {
+      position: new google.maps.LatLng(34.09085, -118.37463),
+      icon: icons.food,
+      book: 'evesHollywood',
+      content: `
+      <h2>Barney’s Beanery</h2>
+      <p>275</p>
+      `,
+    },
+    {
+      position: new google.maps.LatLng(34.091278, -118.34629),
+      icon: icons.residence,
+      book: 'evesHollywood',
+      content: `
+      <h2>Home on Formosa (approx.) </h2>
+      <p>196</p>
+      `,
+    },
+    {
+      position: new google.maps.LatLng(34.1114, -118.320195),
+      icon: icons.residence,
+      book: 'evesHollywood',
+      content: `
+      <h2>Home on Cheremoya Avenue (approx.) </h2>
+      <p>154</p>
+      `,
+    },
+    {
+      position: new google.maps.LatLng(34.019406, -118.506483),
+      icon: icons.area,
+      book: 'evesHollywood',
+      content: `
+      <h2>Sorrento Beach</h2>
+      <p>49</p>
       `,
     },
   ];
