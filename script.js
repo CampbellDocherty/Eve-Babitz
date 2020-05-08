@@ -14,7 +14,7 @@ function initMap() {
   let icons = {
     area: {
       icon: "http://maps.google.com/mapfiles/ms/icons/red-dot.png",
-      name: "Store",
+      name: "Area",
     },
     food: {
       icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
@@ -32,10 +32,6 @@ function initMap() {
       icon: "http://maps.google.com/mapfiles/ms/icons/pink-dot.png",
       name: "Hotel",
     },
-    school: {
-      icon: "http://maps.google.com/mapfiles/ms/icons/purple-dot.png",
-      name: "School",
-    },
     store: {
       icon: "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png",
       name: "Store",
@@ -45,7 +41,7 @@ function initMap() {
       name: "Misc",
     },
     residence: {
-      icon: "http://maps.google.com/mapfiles/kml/pal4/icon47.png",
+      icon: "http://maps.google.com/mapfiles/ms/icons/purple-dot.png",
       name: "Residence",
     },
   };
@@ -80,7 +76,7 @@ function initMap() {
     },
     {
       position: new google.maps.LatLng(34.09916, -118.34005),
-      icon: icons.school,
+      icon: icons.misc,
       book: "charming",
       content: `
         <h2>Hollywood High School</h2>
@@ -125,7 +121,7 @@ function initMap() {
     },
     {
       position: new google.maps.LatLng(33.99361, -118.4799),
-      icon: icons.store,
+      icon: icons.area,
       book: "charming",
       content: `
         <h2>Venice Beach</h2>
@@ -133,8 +129,8 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(33.99514, -118.47694),
-      icon: icons.store,
+      position: new google.maps.LatLng(33.99514, -118.47694),
+      icon: icons.area,
       book: "charming",
       content: `
         <h2>Main Street</h2>
@@ -179,7 +175,7 @@ function initMap() {
     },
     {
       position: new google.maps.LatLng(34.01945, -118.23995),
-      icon: icons.store,
+      icon: icons.area,
       book: "charming",
       content: `
         <h2>Santa Monica</h2>
@@ -315,7 +311,7 @@ function initMap() {
 
     {
       position: new google.maps.LatLng(34.092185, -118.380039),
-      icon: icons.store,
+      icon: icons.area,
       book: "charming",
       content: `
         <h2>Sunset Strip</h2>
@@ -332,7 +328,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.105764, -118.372174),
+      position: new google.maps.LatLng(34.105764, -118.372174),
       icon: icons.residence,
       book: "charming",
       content: `
@@ -341,7 +337,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.105998, -118.318468),
+      position: new google.maps.LatLng(34.105998, -118.318468),
       icon: icons.misc,
       book: "charming",
       content: `
@@ -350,7 +346,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.084636, -118.385723),
+      position: new google.maps.LatLng(34.084636, -118.385723),
       icon: icons.misc,
       book: "charming",
       content: `
@@ -359,7 +355,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.064092, -118.359272),
+      position: new google.maps.LatLng(34.064092, -118.359272),
       icon: icons.misc,
       book: "charming",
       content: `
@@ -368,7 +364,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.129081, -118.114524),
+      position: new google.maps.LatLng(34.129081, -118.114524),
       icon: icons.misc,
       book: "charming",
       content: `
@@ -377,7 +373,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.084345, -118.376811),
+      position: new google.maps.LatLng(34.084345, -118.376811),
       icon: icons.misc,
       book: "charming",
       content: `
@@ -386,7 +382,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.040833, -118.447356),
+      position: new google.maps.LatLng(34.040833, -118.447356),
       icon: icons.misc,
       book: "charming",
       content: `
@@ -395,7 +391,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.083465, -118.367415),
+      position: new google.maps.LatLng(34.083465, -118.367415),
       icon: icons.nightlife,
       book: "charming",
       content: `
@@ -404,7 +400,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.089777, -118.412753),
+      position: new google.maps.LatLng(34.089777, -118.412753),
       icon: icons.area,
       book: "charming",
       content: `
@@ -413,7 +409,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.059507, -118.376145),
+      position: new google.maps.LatLng(34.059507, -118.376145),
       icon: icons.food,
       book: "charming",
       content: `
@@ -423,7 +419,7 @@ function initMap() {
     },
     {
       position: new google.maps.LatLng(34.088353, -118.292688),
-      icon: icons.school,
+      icon: icons.misc,
       book: "charming",
       content: `
         <h2>Los Angeles City College</h2>
@@ -431,7 +427,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.097309, -118.317996),
+      position: new google.maps.LatLng(34.097309, -118.317996),
       icon: icons.residence,
       book: "charming",
       content: `
@@ -440,7 +436,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.102132, -118.335441),
+      position: new google.maps.LatLng(34.102132, -118.335441),
       map: losAngelesMap,
       icon: icons.food,
       book: "charming",
@@ -450,7 +446,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.146229, -118.159162),
+      position: new google.maps.LatLng(34.146229, -118.159162),
       icon: icons.misc,
       book: "charming",
       content: `
@@ -459,7 +455,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.018535, -118.49336),
+      position: new google.maps.LatLng(34.018535, -118.49336),
       icon: icons.misc,
       book: "charming",
       content: `
@@ -468,7 +464,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.015768, -118.491965),
+      position: new google.maps.LatLng(34.015768, -118.491965),
       icon: icons.misc,
       book: "charming",
       content: `
@@ -477,7 +473,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.025831, -118.34978),
+      position: new google.maps.LatLng(34.025831, -118.34978),
       icon: icons.misc,
       book: "charming",
       content: `
@@ -486,7 +482,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.058546, -118.406821),
+      position: new google.maps.LatLng(34.058546, -118.406821),
       icon: icons.landmark,
       book: "charming",
       content: `
@@ -495,7 +491,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.147521, -118.425765),
+      position: new google.maps.LatLng(34.147521, -118.425765),
       icon: icons.area,
       book: "charming",
       content: `
@@ -504,7 +500,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.037882, -118.676998),
+      position: new google.maps.LatLng(34.037882, -118.676998),
       icon: icons.food,
       book: "charming",
       content: `
@@ -513,7 +509,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.090465, -118.384932),
+      position: new google.maps.LatLng(34.090465, -118.384932),
       icon: icons.nightlife,
       book: "charming",
       content: `
@@ -522,7 +518,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.437557, -119.254845),
+      position: new google.maps.LatLng(34.437557, -119.254845),
       icon: icons.hotel,
       book: "charming",
       content: `
@@ -531,16 +527,16 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.124539, -118.149937),
+      position: new google.maps.LatLng(34.124539, -118.149937),
       icon: icons.food,
       book: "charming",
       content: `
-        <h2>Theicons.food</h2>
+        <h2>The Raymond Restaurant</h2>
         <p>357</p>
         `,
     },
     {
-      Position: new google.maps.LatLng(34.059647, -118.20814),
+      position: new google.maps.LatLng(34.059647, -118.20814),
       icon: icons.misc,
       book: "charming",
       content: `
@@ -550,7 +546,7 @@ function initMap() {
     },
 
     {
-      Position: new google.maps.LatLng(34.14635, -118.256811),
+      position: new google.maps.LatLng(34.14635, -118.256811),
       icon: icons.store,
       book: "charming",
       content: `
@@ -559,7 +555,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.049332, -118.217185),
+      position: new google.maps.LatLng(34.049332, -118.217185),
       icon: icons.misc,
       book: "charming",
       content: `
@@ -568,7 +564,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.06745, -118.399159),
+      position: new google.maps.LatLng(34.06745, -118.399159),
       icon: icons.store,
       book: "charming",
       content: `
@@ -577,7 +573,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.105265, -118.319238),
+      position: new google.maps.LatLng(34.105265, -118.319238),
       icon: icons.area,
       book: "charming",
       content: `
@@ -586,7 +582,7 @@ function initMap() {
         `,
     },
     {
-      Position: new google.maps.LatLng(34.095384, -118.291777),
+      position: new google.maps.LatLng(34.095384, -118.291777),
       icon: icons.area,
       book: "charming",
       content: `
@@ -707,7 +703,7 @@ function initMap() {
     },
     {
       position: new google.maps.LatLng(34.10793, -118.27747),
-      icon: icons.school,
+      icon: icons.misc,
       book: "slowDays",
       content: `
       <h2>John Marshall High School</h2>
@@ -716,7 +712,7 @@ function initMap() {
     },
     {
       position: new google.maps.LatLng(34.09916, -118.34005),
-      icon: icons.school,
+      icon: icons.misc,
       book: "slowDays",
       content: `
       <h2>Hollywood High School</h2>
@@ -924,7 +920,7 @@ function initMap() {
     {
       position: new google.maps.LatLng(34.09479, -118.31685),
       map: losAngelesMap,
-      icon: icons.school,
+      icon: icons.misc,
       book: "evesHollywood",
       content: `
       <h2>Josheph Le Conte Middle School</h2>
@@ -1203,7 +1199,7 @@ function initMap() {
     },
     {
       position: new google.maps.LatLng(34.088353, -118.292688),
-      icon: icons.school,
+      icon: icons.misc,
       book: 'evesHollywood',
       content: `
       <h2>Los Angeles City College</h2>
