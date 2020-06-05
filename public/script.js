@@ -152,7 +152,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>The Beverly Hills Hotel</h2>
-        <p>'Nothing ever dies at The Beverly Hills Hotel. It's not allowed to' (p. 48)</p>
+        <p>'Nothing ever dies at The Beverly Hills Hotel. It's not allowed to.' (p. 48)</p>
         `,
     },
     {
@@ -774,7 +774,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Beverly Hills Hotel</h2>
-      <p>xx</p>
+      <p>In her dedication: 'and to The Beverly Hills Hotel.' (p. xx)</p>
       `,
     },
     {
@@ -784,7 +784,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Beverly Wilshire</h2>
-      <p>xxi</p>
+      <p>In her dedication: 'and to the Eggs Benedict at The Beverly Wilshire.' (p. xxi)</p>
       `,
     },
     {
@@ -794,7 +794,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Musso and Frank Grill</h2>
-      <p>xxi</p>
+      <p>In her dedication: ‘and to the Sandabs at Musso’s…’ (p. xxi)</p>
       `,
     },
     {
@@ -804,7 +804,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Don the Beachcomber</h2>
-      <p>xxi</p>
+      <p>In her dedication: ‘and to the crabpuffs at Don the Beachcomber’s’ (p. xxi)</p>
       `,
     },
     {
@@ -814,7 +814,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2> Consumer’s Liquor</h2>
-      <p>xxii</p>
+      <p>In her dedication: ‘and to the future good will of Consumer’s Liquor, the best liquor store in America and aptly named.’ (p. xxii) </p>
       `,
     },
     {
@@ -824,7 +824,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Chateau Marmont</h2>
-      <p>xxii</p>
+      <p>In her dedication: ‘and to the Chateau Marmont’ (p. xxii)</p>
       `,
     },
     {
@@ -834,7 +834,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Troubadour</h2>
-      <p>xxii</p>
+      <p>‘…the spill all over the floor of the Troubadour ladies’ room’ (p. xxii)</p>
       `,
     },
     {
@@ -844,7 +844,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Bradbury Building</h2>
-      <p>xxiii</p>
+      <p>In her dedication: ‘and to the land, the beach, the trees, the hills, the sky, the Bradbury Building, the Broadway Hollywood and all the flowers in spring’ (p. xxiii) </p>
       `,
     },
     {
@@ -854,7 +854,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Broadway Hollywood Building</h2>
-      <p>xxiii</p>
+      <p>In her dedication: ‘and to the land, the beach, the trees, the hills, the sky, the Bradbury Building, the Broadway Hollywood and all the flowers in spring’ (p. xxiii)</p>
       `,
     },
     {
@@ -864,7 +864,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Pupi's Combination Bakery and Sidewalk Cafe</h2>
-      <p>xxiii</p>
+      <p>In her dedication: ‘and to tea cakes, chocolate rabbits, Pupi’s, Clifton’s (p. xxiii)</p>
       `,
     },
     {
@@ -874,7 +874,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Clifton's Cafeteria</h2>
-      <p>xxiii</p>
+      <p>In her dedication: ‘and to tea cakes, chocolate rabbits, Pupi’s, Clifton’s (p. xxiii)</p>
       `,
     },
     {
@@ -884,7 +884,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Hawaii Theater</h2>
-      <p>xxiv</p>
+      <p>In her dedication: ‘and to the Hawaii Theatre of my youth’ (p. xxiv)</p>
       `,
     },
     {
@@ -894,7 +894,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Luau</h2>
-      <p>3</p>
+      <p>'a ratty old crazy Tahitian place in Beverly Hills with blue lagoons and gardenias in the drinks' (p. 17)</p>
       `,
     },
     {
@@ -904,7 +904,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Crescendo</h2>
-      <p>17</p>
+      <p>(p. 17)</p>
       `,
     },
     {
@@ -914,7 +914,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Hollywood & Vine</h2>
-      <p>15</p>
+      <p>Overheard a family of tourists sigh with 'unnoticed despondence': “well… here we are… Hollywood and Vine.'(p. 15)</p>
       `,
     },
     {
@@ -924,7 +924,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Josheph Le Conte Middle School</h2>
-      <p>32</p>
+      <p>‘Pop’s was where the Pachucos hung out a block from Le Conte’ a hotdog stand' (p. 32)</p>
       `,
     },
     {
@@ -934,7 +934,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Angels Flight Railway</h2>
-      <p>57</p>
+      <p>'It cost a nickel to go on Angel's Flight, the world's shortest railroad, located once in downtown L.A. and now gone.' (p. 57)</p>
       `,
     },
     {
@@ -964,7 +964,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Santa Sophia Greek Orthodox Cathedral</h2>
-      <p>90</p>
+      <p>‘the Greek Orthodox Church down on Pico and Normandy’ (p. 90)</p>
       `,
     },
     {
@@ -984,7 +984,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Café Society</h2>
-      <p>99</p>
+      <p>'...we were in Café Society at night and school in the daytime.' (p. 99)</p>
       `,
     },
     {
@@ -1034,7 +1034,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Boutique</h2>
-      <p>118</p>
+      <p>‘at the corner of Little Santa Monica and Beverly Drive’ (p. 118)</p>
       `,
     },
     {
@@ -1044,7 +1044,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>La Scala</h2>
-      <p>121</p>
+      <p>'The fancy resturant, La Scala, is where you go if you want dependable, expensive, high-class Italian food in Beverly Hills.' (p. 121)</p>
       `,
     },
     {
@@ -1064,7 +1064,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Grand Central Market</h2>
-      <p>142</p>
+      <p>'It's like Baghdad' (p. 142)</p>
       `,
     },
     {
@@ -1074,7 +1074,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Four Oaks Bar</h2>
-      <p>144</p>
+      <p>'An artists' bar in Beverly Glen' (p. 144)</p>
       `,
     },
     {
@@ -1158,23 +1158,13 @@ function initMap() {
       `,
     },
     {
-      position: new google.maps.LatLng(34.09085, -118.37463),
-      map: losAngelesMap,
-      icon: icons.food,
-      book: "evesHollywood",
-      content: `
-      <h2>Barney’s Beanery</h2>
-      <p>PAGE</p>
-      `,
-    },
-    {
       position: new google.maps.LatLng(34.056, -118.23741),
       map: losAngelesMap,
       icon: icons.landmark,
       book: "evesHollywood",
       content: `
       <h2>Union Station</h2>
-      <p>279</p>
+      <p>Union Station, the railroad station that is so magnificent and legendary' (p. 279)</p>
       `,
     },
     {
@@ -1184,7 +1174,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Watts Towers</h2>
-      <p>284</p>
+      <p>‘Watts isn’t Harlem, but its ugly and smoggy and flat and plantless’ (p. 284)</p>
       `,
     },
     {
@@ -1194,7 +1184,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Benihana</h2>
-      <p>288</p>
+      <p>‘a Japanese restaurant on La Cienega’ (p. 288)</p>
       `,
     },
     {
@@ -1203,7 +1193,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Los Angeles City College</h2>
-      <p>154</p>
+      <p>'L.A.C.C. didn't even make a stab at school spirit even in jest.' (p. 154)</p>
       `,
     },
 
@@ -1213,7 +1203,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Palos Verdes (the house of Joseph Szigeti)</h2>
-      <p>6</p>
+      <p>'it was there that I first ate figs.' (p. 6)</p>
       `,
     },
     {
@@ -1222,7 +1212,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Rainbow</h2>
-      <p>246</p>
+      <p>'It is a hellish place, desperate and crowded' (p. 246)</p>
       `,
     },
     {
@@ -1240,7 +1230,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Home on Formosa (approx.) </h2>
-      <p>196</p>
+      <p>'It has a certain rural quality' (p. 196)</p>
       `,
     },
     {
@@ -1249,7 +1239,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Home on Cheremoya Avenue (approx.) </h2>
-      <p>154</p>
+      <p>Lived here with her parents 'when I first started going to L.A.C.C.' (p. 154)</p>
       `,
     },
     {
@@ -1258,7 +1248,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Sorrento Beach</h2>
-      <p>49</p>
+      <p>'a dispassionate beach' (p. 50)</p>
       `,
     },
   ];
