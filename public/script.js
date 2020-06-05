@@ -924,7 +924,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Josheph Le Conte Middle School</h2>
-      <p>‘Pop’s was where the Pachucos hung out a block from Le Conte’ a hotdog stand' (p. 32)</p>
+      <p>(p. 32)</p>
       `,
     },
     {
