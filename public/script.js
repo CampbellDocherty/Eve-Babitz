@@ -1133,7 +1133,7 @@ function initMap() {
       icon: icons.hotel,
       book: "evesHollywood",
       content: `
-      <h2>The icons.landmark Motel</h2>
+      <h2>The Landmark Motel</h2>
       <p>272</p>
       `,
     },
