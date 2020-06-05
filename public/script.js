@@ -152,7 +152,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>The Beverly Hills Hotel</h2>
-        <p>43, 151</p>
+        <p>'Nothing ever dies at The Beverly Hills Hotel. It's not allowed to' (p. 48)</p>
         `,
     },
     {
