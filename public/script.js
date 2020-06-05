@@ -174,7 +174,7 @@ function initMap() {
         `,
     },
     {
-      position: new google.maps.LatLng(34.01945, -118.23995),
+      position: new google.maps.LatLng(34.016985, -118.493677),
       icon: icons.area,
       book: "charming",
       content: `
@@ -621,7 +621,7 @@ function initMap() {
       `,
     },
     {
-      position: new google.maps.LatLng(34.01945, -118.23995),
+      position: new google.maps.LatLng(34.016985, -118.493677),
       icon: icons.area,
       book: "slowDays",
       content: `
@@ -634,7 +634,7 @@ function initMap() {
       icon: icons.hotel,
       book: "slowDays",
       content: `
-      <h2>The icons.landmark Motor hotel</h2>
+      <h2>The Landmark Motor hotel</h2>
       <p>54</p>
       `,
     },
@@ -1200,7 +1200,7 @@ function initMap() {
     {
       position: new google.maps.LatLng(34.088353, -118.292688),
       icon: icons.misc,
-      book: 'evesHollywood',
+      book: "evesHollywood",
       content: `
       <h2>Los Angeles City College</h2>
       <p>154</p>
@@ -1210,7 +1210,7 @@ function initMap() {
     {
       position: new google.maps.LatLng(33.79095, -118.399684),
       icon: icons.residence,
-      book: 'evesHollywood',
+      book: "evesHollywood",
       content: `
       <h2>Palos Verdes (the house of Joseph Szigeti)</h2>
       <p>6</p>
@@ -1219,7 +1219,7 @@ function initMap() {
     {
       position: new google.maps.LatLng(34.090942, -118.388248),
       icon: icons.nightlife,
-      book: 'evesHollywood',
+      book: "evesHollywood",
       content: `
       <h2>The Rainbow</h2>
       <p>246</p>
@@ -1228,7 +1228,7 @@ function initMap() {
     {
       position: new google.maps.LatLng(34.09085, -118.37463),
       icon: icons.food,
-      book: 'evesHollywood',
+      book: "evesHollywood",
       content: `
       <h2>Barney’s Beanery</h2>
       <p>275</p>
@@ -1237,7 +1237,7 @@ function initMap() {
     {
       position: new google.maps.LatLng(34.091278, -118.34629),
       icon: icons.residence,
-      book: 'evesHollywood',
+      book: "evesHollywood",
       content: `
       <h2>Home on Formosa (approx.) </h2>
       <p>196</p>
@@ -1246,7 +1246,7 @@ function initMap() {
     {
       position: new google.maps.LatLng(34.1114, -118.320195),
       icon: icons.residence,
-      book: 'evesHollywood',
+      book: "evesHollywood",
       content: `
       <h2>Home on Cheremoya Avenue (approx.) </h2>
       <p>154</p>
@@ -1255,7 +1255,7 @@ function initMap() {
     {
       position: new google.maps.LatLng(34.019406, -118.506483),
       icon: icons.area,
-      book: 'evesHollywood',
+      book: "evesHollywood",
       content: `
       <h2>Sorrento Beach</h2>
       <p>49</p>
