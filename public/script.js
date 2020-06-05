@@ -1272,6 +1272,7 @@ function initMap() {
     if (location.content) {
       let infoWindow = new google.maps.InfoWindow({
         content: location.content,
+        maxWidth: 200
       });
 
       infoWindows.push(infoWindow);
