@@ -53,7 +53,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Dan Tana’s</h2>
-        <p>5</p>
+        <p>'The Bar Where We All Go To Pick Each Other Up.' (p. 5)</p>
         `,
     },
     {
@@ -62,7 +62,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Paramount Studios</h2>
-        <p>11</p>
+        <p>•	'The Lost Hour occurred on Friday, November 30, 1973, at Paramount Studios on stage #27 during the Senate Investigating Committee scene' (p. 11)</p>
         `,
     },
     {
@@ -71,7 +71,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Nickodell</h2>
-        <p>12, 136</p>
+        <p>'A thirties Hollywood restaurant [...] it's so Mildred Pierce.' 'It's sort of the only place in L.A. you can go without accidentally bumping into an alfalfa sprout' and 'it's a good place to discuss your nervous breakdown.' (p. 136)</p>
         `,
     },
     {
@@ -80,7 +80,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Hollywood High School</h2>
-        <p>17</p>
+        <p>'and besides, I went to Hollywood High' (p. 17)</p>
         `,
     },
     {
@@ -89,7 +89,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>The Las Palmas newsstand (Universal News Agency) </h2>
-        <p>18</p>
+        <p>'I'd run immediately to the Las Palmas newsstand to get a Tuscon Paper' (p. 18)</p>
         `,
     },
     {
@@ -98,7 +98,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Barney’s Beanery</h2>
-        <p>37, 239</p>
+        <p>'We used to hang out at Barney's Beanery for years' (37), 'the scene at Barney’s was just fabulous' (p. 241), it was ‘just this wreck of a West Hollywood chili joint’ (p. 239)</p>
         `,
     },
     {
@@ -107,7 +107,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>The Polar Palace</h2>
-        <p>71</p>
+        <p>'The first illegal boy I ever kissed (no adult supervision) was ice-skating in the ancient high-up bleachers of the Polar Palace' (p. 71)</p>
         `,
     },
     {
@@ -116,7 +116,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Ralph’s</h2>
-        <p>64, 89, 147</p>
+        <p>'My local supermarket where anything often goes' (p. 64), it was 'fraught with live action' (p. 89) and 'this particular Ralph's on Sunset is in the heart of the most peculiar part of Hollywood' (p. 147)</p>
         `,
     },
     {
@@ -125,7 +125,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Venice Beach</h2>
-        <p>101</p>
+        <p>'Santa Monica and Venice, I'm convinced, are now the centre of the universe and nothing happens anywhere that doesn't happen here on the boardwalk first' (p. 101)</p>
         `,
     },
     {
@@ -134,7 +134,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Main Street</h2>
-        <p>101/2</p>
+        <p>Home to restaurants and cafés like Café California, the Buttery, and Le Central' (101/2)</p>
         `,
     },
     {
@@ -143,7 +143,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>The Troubadour</h2>
-        <p>105, 176</p>
+        <p>'Now I want it known right off that I was fourteen years old the day I first walked into the Troubadour' (p. 105), 'it looks like a mild-mannered Swiss restaurant' (106)</p>
         `,
     },
     {
@@ -161,7 +161,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>The Beverly Wilshire</h2>
-        <p>43</p>
+        <p>(p. 43)</p>
         `,
     },
     {
@@ -170,7 +170,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Chateau Marmont</h2>
-        <p>43</p>
+        <p>'A bastion of grace holding on by its fingernails against time’ (p. 43)</p>
         `,
     },
     {
@@ -179,7 +179,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Santa Monica</h2>
-        <p>101</p>
+        <p>'Santa Monica and Venice, I'm convinced, are now the centre of the universe and nothing happens anywhere that doesn't happen here on the boardwalk first' (p. 101)</p>
         `,
     },
     {
@@ -188,7 +188,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Whisky a Go Go</h2>
-        <p>105</p>
+        <p> Pre-Beatles, 'the only place you could hear live rock and roll in L.A. was up at the Whisky a Go Go on the Sunset Strip' (p. 105)</p>
         `,
     },
     {
@@ -197,7 +197,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>The London Fog</h2>
-        <p>105</p>
+        <p>'Where Jim Morrison and the Doors used to play in 1966' (p. 105)</p>
         `,
     },
     {
@@ -206,7 +206,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>The Trip</h2>
-        <p>105</p>
+        <p>(p. 105)</p>
         `,
     },
     {
@@ -215,7 +215,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Ciro’s</h2>
-        <p>105</p>
+        <p>'Where the Byrds first started' (p. 105)</p>
         `,
     },
     {
@@ -224,16 +224,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Tropicana Motel</h2>
-        <p>106</p>
-        `,
-    },
-    {
-      position: new google.maps.LatLng(34.089985, -118.376452),
-      icon: icons.hotel,
-      book: "charming",
-      content: `
-        <h2>Alta Cienga Motel</h2>
-        <p>112</p>
+        <p>'Where at least three rock and roll bands are always waiting, ready for anything' (p. 106)</p>
         `,
     },
     {
@@ -242,7 +233,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Gold’s Gym</h2>
-        <p>127</p>
+        <p>'Gold's Gym is near the northwest corner of Second and Broadway in Santa Monica, California,' where she interviews Lisa Lyon (p. 127)</p>
         `,
     },
     {
@@ -251,7 +242,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Tiffany’s</h2>
-        <p>138</p>
+        <p>'the doors to Tiffany's in Beverly Hills are every bit as enormous and twelve times as forbidding as the Gates of Paradise in Florence' (p. 138)</p>
         `,
     },
     {
@@ -260,7 +251,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Sorrento Beach</h2>
-        <p>143</p>
+        <p>'Where she goes when she ditches school' (p. 143)</p>
         `,
     },
     {
@@ -269,7 +260,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Snow White’s Cafe</h2>
-        <p>146</p>
+        <p>'Where we always had our nine cigarettes and hash-brown potatoes before school' (p. 146)</p>
         `,
     },
     {
@@ -277,8 +268,8 @@ function initMap() {
       icon: icons.landmark,
       book: "charming",
       content: `
-        <h2>Convent</h2>
-        <p>156</p>
+        <h2>Immaculate Heart of Mary Convent</h2>
+        <p>'A giant estate overlooking the entire smog-laden city' (p. 156)</p>
         `,
     },
     {
@@ -286,8 +277,8 @@ function initMap() {
       icon: icons.misc,
       book: "charming",
       content: `
-        <h2>Yoga Center (approx.) </h2>
-        <p>161</p>
+        <h2>Yoga Center</h2>
+        <p>Where she takes Ashtanga yoga classes (p. 161) (approx. location)</p>
         `,
     },
     {
@@ -295,8 +286,8 @@ function initMap() {
       icon: icons.misc,
       book: "charming",
       content: `
-        <h2>Hollywood YMCA (approx.) </h2>
-        <p>164, 167</p>
+        <h2>Hollywood YMCA</h2>
+        <p>'The Y was noisy and filled with old people and kids, and I felt so at home there, it was as though I'd just returned from the moon' (p. 164) and where she takes ballroom dancing lessons (p. 167) (approx. location)</p>
         `,
     },
     {
@@ -305,7 +296,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2> Le Dôme </h2>
-        <p>165, 331</p>
+        <p>'a ridiculous bastion of iniquity' (p. 165)</p>
         `,
     },
 
@@ -315,7 +306,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Sunset Strip</h2>
-        <p>173</p>
+        <p>'glorious Sunset Strip, which today, because it's so clear and windy, is like a painting of Monte Carlo by the sea' (p. 173)</p>
         `,
     },
     {
@@ -324,7 +315,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Helena’s</h2>
-        <p>179</p>
+        <p>'I have never even been to Helena's. I mean, I don't even know where, downtown, it is' (p. 179)</p>
         `,
     },
     {
@@ -332,8 +323,8 @@ function initMap() {
       icon: icons.residence,
       book: "charming",
       content: `
-        <h2>House on Kirkwood (approx.) </h2>
-        <p>180</p>
+        <h2>House on Kirkwood</h2>
+        <p>'There were maybe a hundred people in this abandoned house in Laurel Canyon on Kirkwood' (p. 180) approx. location</p>
         `,
     },
     {
@@ -342,7 +333,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>a Laundromat</h2>
-        <p>181</p>
+        <p>'I was doing my sheets at a laundromat on Bronson' (p. 181)</p>
         `,
     },
     {
@@ -351,7 +342,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Margo Leavin Gallery</h2>
-        <p>189</p>
+        <p>She goes to an art exhibit that has come from New York (p. 189)</p>
         `,
     },
     {
@@ -360,7 +351,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>L.A. County Museum of Art</h2>
-        <p>191</p>
+        <p> During the fifties 'the only thing in the county art museum that was the least bit alluring to me and my sister was the Egyptian mummy' (p. 191)</p>
         `,
     },
     {
@@ -369,7 +360,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Henry E. Huntington Library and Art Gallery</h2>
-        <p>191</p>
+        <p>'In L.A. at that time [the fifties], in other words, if you wanted to see real art, you went to the Henry E. Huntington Library and Art Gallery' (p. 191)</p>
         `,
     },
     {
@@ -378,7 +369,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Ferus Gallery</h2>
-        <p>192</p>
+        <p>In '1957 or so,' Walter Hopps III opened the Ferus Gallery and 'the myth of the West began to solidify' (p. 192)</p>
         `,
     },
     {
@@ -387,7 +378,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>James Corcoran Gallery</h2>
-        <p>195</p>
+        <p>Joe Goode had a show here called '"Ocean Blue Series" that was so beautiful and radiant that just seeing the things made you feel lit from within' (p. 195)</p>
         `,
     },
     {
@@ -396,7 +387,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>The Ash Grove</h2>
-        <p>221</p>
+        <p>'In the sixties, people in L.A. with romantic streaks who knew music went for [...] 'clubs like the Troubadour and the Trip and the Ash Grove.' (p. 221)</p>
         `,
     },
     {
@@ -405,7 +396,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Coldwater</h2>
-        <p>224</p>
+        <p>The last time she saw Jim Morrison with no shirt on (his body 'ravaged by scars, toxins, and puffy pudginess') was 'at a party up in Coldwater' (p. 224)</p>
         `,
     },
     {
@@ -414,7 +405,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Ships</h2>
-        <p>224 (one possible location but closest to her home)</p>
+        <p>Jim Morrison would suggest to her "Let's go to Ships and get blueberry pancakes with blueberry syrup" (p. 224) (approx. location, closest to her home)</p>
         `,
     },
     {
@@ -422,8 +413,8 @@ function initMap() {
       icon: icons.misc,
       book: "charming",
       content: `
-        <h2>Los Angeles City College</h2>
-        <p>239</p>
+        <h2>Los Angeles Community College</h2>
+        <p>'In 1962, when I was nineteen, I was going to L.A. Community College (because you could park, unlike at UCLA)' (p. 239)</p>
         `,
     },
     {
@@ -431,8 +422,8 @@ function initMap() {
       icon: icons.residence,
       book: "charming",
       content: `
-        <h2>Home on Bronson Ave. (approx.) </h2>
-        <p>241</p>
+        <h2>Home on Bronson Avenue</h2>
+        <p>'I was living in this little paper bungalow--one room with a typewriter--on Bronson Avenue in Hollywood' (p. 241) (approx. location)</p>
         `,
     },
     {
@@ -442,7 +433,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Musso and Frank Grill</h2>
-        <p>242</p>
+        <p>'One night, we were leaving Musso's when [Walter Hopps] looked at his watch and said, "Good, I still have time to get to Bel Air and sell that Duchamp' (p. 242)</p>
         `,
     },
     {
@@ -451,7 +442,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Pasadena Art Museum</h2>
-        <p>246</p>
+        <p>Where the photo of her playing chess against Duchamp is taken and immortalized: 'this large, too-L.A. surfer girl with an extremely tiny old man in a French suit. Playing Chess.' (p. 245)</p>
         `,
     },
     {
@@ -460,7 +451,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Santa Monica Public Library</h2>
-        <p>249</p>
+        <p>Where a symposium about Duchamp's work was held (p. 249)</p>
         `,
     },
     {
