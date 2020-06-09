@@ -169,8 +169,17 @@ function initMap() {
       icon: icons.hotel,
       book: "charming",
       content: `
-        <h2>Chateau Marmont</h2>
-        <p>'A bastion of grace holding on by its fingernails against time’ (p. 43)</p>
+        <h2>The Chateau Marmont</h2>
+        <p>'The Chateau Marmont, with its slow elevators, high ceilings, and amazing views, is a bastion of grace holding on by its fingernails against time.’ (p. 43)</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.092155, -118.377616),
+      icon: icons.hotel,
+      book: "charming",
+      content: `
+        <h2>The Sunset Marquis</h2>
+        <p>'The Sunset Marquis is pure L.A.’ (p. 44)</p>
         `,
     },
     {
@@ -451,7 +460,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Santa Monica Public Library</h2>
-        <p>Where a symposium about Duchamp's work was held (p. 249)</p>
+        <p>Where a symposium about Duchamp's work was held that Babitz attended (p. 249)</p>
         `,
     },
     {
@@ -460,7 +469,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Fred Segal’s</h2>
-        <p>250</p>
+        <p>‘This fancy clothing store with a café inside’ (p. 250)</p>
         `,
     },
     {
@@ -469,7 +478,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Shoshana Wayne Gallery</h2>
-        <p>252</p>
+        <p>'Where Julian [Wesser] had a display of his pictures [including] that day I played chess with Duchamp and surprised Walter [Hopps] (p. 252)</p>
         `,
     },
     {
@@ -478,7 +487,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Roxbury Park</h2>
-        <p>307</p>
+        <p>‘If we were to live in a tent city, we hoped it would be in Roxbury Park’ (p. 307)</p>
         `,
     },
     {
@@ -487,7 +496,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Sherman Oaks</h2>
-        <p>308</p>
+        <p>'Yesterday I drove out to the Valley, to Sherman Oaks, where places I used to like going to are now ground down, shattered, have huge strange cracks in them, and otherwise seemed shaken to their cores' (p. 308)</p>
         `,
     },
     {
@@ -496,7 +505,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Malibu Inn</h2>
-        <p>318</p>
+        <p>‘This great old, traditional diner’ (p. 318)</p>
         `,
     },
     {
@@ -505,7 +514,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>The Viper Room</h2>
-        <p>333</p>
+        <p>(p. 333)</p>
         `,
     },
     {
@@ -514,7 +523,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Ojai Valley Inn</h2>
-        <p>342</p>
+        <p>'The fabulous Ojai Valley Inn' '(on Sundays they actually had blintzes which for a Republican-type golf place is amazingly Jewish) (p. 342)</p>
         `,
     },
     {
@@ -523,7 +532,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>The Raymond Restaurant</h2>
-        <p>357</p>
+        <p>'Here's what you would have witnessed if you happened to be standing outside the Raymond restaurant in Pasadena on April 13, 1997: A '68 VW Bug comes to a stop, a woman flies out, skirt aflame. She drops to the ground by the side of the road, rolls on the grass, setting the grass along the side of the road on fire, and then against the green bushes, setting those on fire too. "Oh no, oh no!" is all she can manage. That woman was me.' (p. 357)</p>
         `,
     },
     {
@@ -532,7 +541,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Los Angeles County-USC Medical Center</h2>
-        <p>359</p>
+        <p>'I was admitted into the burn intesive care unit at Los Angeles County-USC Medical Center.' (p. 359)</p>
         `,
     },
 
@@ -542,7 +551,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>The Glendale Galleria</h2>
-        <p>364</p>
+        <p>'I held on to the happy thought of being well enough to go back to the Glendale Galleria, not far from my house' (p. 364)</p>
         `,
     },
     {
@@ -551,7 +560,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>White Memorial</h2>
-        <p>366</p>
+        <p>'a rehab hospital not far from County [...] my sister assured me that compared to where I was, White was the Beverly Hills Hotel' (p. 366)</p>
         `,
     },
     {
@@ -560,7 +569,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Fiorucci</h2>
-        <p>375</p>
+        <p>‘a couple of years ago I made my first trip to Fiorucci, in Beverly Hills, just off Rodeo Drive.’ (p. 375)</p>
         `,
     },
     {
@@ -569,7 +578,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Franklin Ave.</h2>
-        <p>291</p>
+        <p>'Now I was getting close to home. All I had to do was turn onto Franklin…’ (p. 291)</p>
         `,
     },
     {
@@ -578,7 +587,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Vermont Ave.</h2>
-        <p>291</p>
+        <p>‘On Vermont Avenue in East Hollywood, there are almost three blocks of hippiness.’ (p. 291)</p>
         `,
     },
   ];
@@ -590,7 +599,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>Forest Lawn</h2>
-      <p>7</p>
+      <p>‘an example of eternity carried to its logical conclusion’ (p. 7)</p>
       `,
     },
     {
@@ -599,7 +608,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>Bakersfield</h2>
-      <p>11</p>
+      <p>‘Bakersfield has a smog problem so that sunsets around there are just heaven’ (p. 11)</p>
       `,
     },
     {
@@ -608,7 +617,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>Dodger Stadium</h2>
-      <p>39</p>
+      <p>'I've been halfway around the world in a plane and witnessed revolutions in Trafalger Square, but nobody has ever asked me to see a baseball game in my whole American life' (p. 42)</p>
       `,
     },
     {
@@ -617,7 +626,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>Santa Monica</h2>
-      <p>53</p>
+      <p>(p. 53)</p>
       `,
     },
     {
@@ -626,7 +635,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>The Landmark Motor hotel</h2>
-      <p>54</p>
+      <p>Where Janis Joplin was staying when she overdosed (p. 54)</p>
       `,
     },
     {
@@ -635,7 +644,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>Musso and Frank Grill</h2>
-      <p>61</p>
+      <p>'The Bloody Marys at Musso & Frank's Restaurant are unparalleled in Western thought and can cure anything.' (p. 61) and '(I don't care what time it is, I ALWAYS get creamed spinach at Musso's. It's the nutmeg.)' (p. 62) </p>
       `,
     },
     {
@@ -644,7 +653,16 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>Ports</h2>
-      <p>70</p>
+      <p>'Ports takes to rain oddly. When Ports opened, the first day I ever went there, it was raining outside and I fell in love with the place [...] and the next thing you know I was being a waitress for three months for free.' (p. 85)</p>
+      `,
+    },
+    {
+      position: new google.maps.LatLng(33.824347, -116.546977),
+      icon: icons.food,
+      book: "slowDays",
+      content: `
+      <h2>Hamburger Hamlet</h2>
+      <p>'The one in Palm Springs is a travesty, and not worth the cardboard the menu is printed on.' (p. 116)</p>
       `,
     },
     {
@@ -653,7 +671,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>Laguna</h2>
-      <p>81</p>
+      <p>(p. 81)</p>
       `,
     },
     {
@@ -662,7 +680,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>Sarno’s</h2>
-      <p>94</p>
+      <p>'Sarno’s is an Italian coffee bar and it would make Al Stills feel perfect' (p. 94)</p>
       `,
     },
     {
@@ -671,7 +689,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>Palm Springs</h2>
-      <p>97</p>
+      <p>'The peace that some claim to find in all that sand will never happen to me in Palm Springs' (p. 121)</p>
       `,
     },
     {
@@ -680,7 +698,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>Emerald Bay</h2>
-      <p>125</p>
+      <p>'There were, I thought, no surprises from without in Emerald Bay' (p. 125)</p>
       `,
     },
     {
@@ -689,7 +707,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>The Garden of Allah</h2>
-      <p>139</p>
+      <p>'You can’t tear down places like the Garden of Allah and just expect them to cease. All that Hollywoodness has to go somewhere.’ (p. 140)</p>
       `,
     },
     {
@@ -698,7 +716,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>John Marshall High School</h2>
-      <p>141</p>
+      <p>'It's all so normal and American that they always use Marshall on locations when they need a typical Midwestern high school' (p. 141)</p>
       `,
     },
     {
@@ -707,7 +725,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>Hollywood High School</h2>
-      <p>141</p>
+      <p>'Hollywood High, where I was legally zoned, was rounded, voluptuous, palm-treed, and banana-leaved and sprawled out onto Sunset and Highland, where men with convertibles and green eyes cruised by at three to watch the girls. I was afraid to go there.' (p. 141)</p>
       `,
     },
     {
@@ -716,7 +734,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>The Luau</h2>
-      <p>149</p>
+      <p>'(They have huge rum drinks at The Luau in which gardenias float.)' (p. 149)</p>
       `,
     },
     {
@@ -725,7 +743,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>Dan Tana’s</h2>
-      <p>149</p>
+      <p>'Tana's is where everyone picks each other up and eats garlic [...] Tana's, with it quaint red and white tablecloths, its spinach salads, and the drunken endless waits for tables.' (p. 149)</p>
       `,
     },
     {
@@ -734,7 +752,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>Venice Beach</h2>
-      <p>150</p>
+      <p>'Venice that summer looked like a Hopper painting.' (p. 150)</p>
       `,
     },
     {
@@ -743,16 +761,53 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>Barney’s Beanery</h2>
-      <p>154</p>
+      <p>'I first saw Daniel Wiley fifteen years ago at Barney’s Beanery.' (p. 154)</p>
       `,
+    },
+    {
+      position: new google.maps.LatLng(34.090516, -118.346036),
+      icon: icons.food,
+      book: "slowDays",
+      content: `
+      <h2>Formosa Café</h2>
+      <p>'We sat in the boxcar of the Formosa Café and dawdled away the afternoon [...] it's an old railroad car papered with 8x10 glossies of Betty Grable and Zachary Scott. We had rumaki and mai-tais.' (p. 58)</p>
+      `,
+    },
+    {
+      position: new google.maps.LatLng(33.543325, -117.788397),
+      icon: icons.food,
+      book: "slowDays",
+      content: `
+      <h2>Victor Hugo Restaurant</h2>
+      <p>'...we turned north and drove up a few blocks past the Victor Hugo Restaurant, where Shawn and I later took Jo one afternoon for three Margaritas apiece' (128)</p>
+      `,
+    },
+    {
+      position: new google.maps.LatLng(34.064092, -118.359272),
+      icon: icons.misc,
+      book: "slowDays",
+      content: `
+        <h2>L.A. County Museum of Art</h2>
+        <p>'When I was growing up, civilized friends of my parents' and even my parents used to complain all the time about how L.A. County Art Museum was a travesty unparalleled anywhere for dopiness.' (p. 8)</p>
+        `,
+    },
+    {
+      position: new google.maps.LatLng(34.084345, -118.376811),
+      icon: icons.misc,
+      book: "slowDays",
+      content: `
+        <h2>Ferus Gallery</h2>
+        <p>'the Ferus Gallery began exposing the rest of the country to Los Angeles art in the fifties' (p. 9)</p>
+        `,
     },
     {
       position: new google.maps.LatLng(34.098083, -118.368192),
       icon: icons.hotel,
       book: "slowDays",
       content: `
-      <h2>Chateau Marmont</h2>
-      <p>140</p>
+      <h2>The Chateau Marmont</h2>
+      <p>'I'd gone over for a drink at a friend's at the Chateau, and forty-eight hours later the elevator doors opened out to the basement parking lot where I had thoughtlessly parked, telling the attendent I'd only be a minute.' (156) 
+      ‘The awkward basement pillars of the Chateau Marmont support the past.’ (p. 161)</p>
       `,
     },
   ];
@@ -765,7 +820,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Beverly Hills Hotel</h2>
-      <p>In her dedication: 'and to The Beverly Hills Hotel.' (p. xx)</p>
+      <p>'The Beverly Hills Hotel poolside was mostly Fag-Rock entourage that day' (p. 170). Also features in her lengthy dedication (p. xx)</p>
       `,
     },
     {
@@ -785,7 +840,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Musso and Frank Grill</h2>
-      <p>In her dedication: ‘and to the Sandabs at Musso’s…’ (p. xxi)</p>
+      <p>In her dedication: ‘and to the Sandabs at Musso’s’ (p. xxi)</p>
       `,
     },
     {
@@ -814,8 +869,8 @@ function initMap() {
       icon: icons.hotel,
       book: "evesHollywood",
       content: `
-      <h2>Chateau Marmont</h2>
-      <p>In her dedication: ‘and to the Chateau Marmont’ (p. xxii)</p>
+      <h2>The Chateau Marmont</h2>
+      <p>‘I spent the [Watts] riots in a penthouse at the Chateau Marmont.’ (p. 143) Also features in her lengthy dedication. (p. xxii)</p>
       `,
     },
     {
@@ -895,7 +950,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Crescendo</h2>
-      <p>(p. 17)</p>
+      <p>A West Hollywood jazz venue (p. 17)</p>
       `,
     },
     {
@@ -935,7 +990,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Polar Palace</h2>
-      <p>60</p>
+      <p>'The worst thing about the Polar Palace though wasn't that my hair went straight in the midst of fog and Tweed, it was that I didn't like it.' (p. 60)</p>
       `,
     },
     {
@@ -945,7 +1000,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Ojai</h2>
-      <p>73</p>
+      <p>'It was a beautiful Sunday, windy, and we drove up the coast to Ojai, which is inland and just South of Santa Barbara' (p. 73)</p>
       `,
     },
     {
@@ -955,7 +1010,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Santa Sophia Greek Orthodox Cathedral</h2>
-      <p>‘the Greek Orthodox Church down on Pico and Normandy’ (p. 90)</p>
+      <p>‘The Greek Orthodox Church down on Pico and Normandy is in that section of town where none of my peers would ever find themselves because it's not near any freeway exists and besides, what's down there?’ (p. 90)</p>
       `,
     },
     {
@@ -965,7 +1020,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Schwab’s Pharmacy</h2>
-      <p>95</p>
+      <p> A drugstore in Hollywood that was a popular hangout for movie industry people (p. 95P</p>
       `,
     },
     {
@@ -985,7 +1040,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Garden of Allah</h2>
-      <p>99</p>
+      <p>'We were both virgins, too, as we drank in the Garden of Allah bar with fake I.D.s and tried to be clever around men twice as old as us.' (p. 99)</p>
       `,
     },
     {
@@ -995,7 +1050,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Cantor’s</h2>
-      <p>102</p>
+      <p>'Everyone would leave the Strip at 2 when the clubs closed and go to Cantor's en masse' (p. 252)</p>
       `,
     },
     {
@@ -1005,7 +1060,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Griffith Park</h2>
-      <p>103</p>
+      <p>'When I was in the Brownies in the 4th grade and we went to Griffith Park for a Hot Dog Cookout, they wouldn't let us wander in the hills alone.' (p. 103)</p>
       `,
     },
     {
@@ -1015,7 +1070,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Sunset/La Brea</h2>
-      <p>108</p>
+      <p>'The other day I was driving past La Brea and Sunset.' (p. 108)</p>
       `,
     },
     {
@@ -1025,7 +1080,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Boutique</h2>
-      <p>‘at the corner of Little Santa Monica and Beverly Drive’ (p. 118)</p>
+      <p>‘The best thing you can get at The Boutique aside from the devastating chocolate mousse is a Leon Salad and glimpses of people you never believe live.’ (p. 118)</p>
       `,
     },
     {
@@ -1045,7 +1100,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Whisky a Go Go</h2>
-      <p>130</p>
+      <p>(p. 130)</p>
       `,
     },
     {
@@ -1055,7 +1110,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Grand Central Market</h2>
-      <p>'It's like Baghdad' (p. 142)</p>
+      <p>'It's like Baghdad.' (p. 142)</p>
       `,
     },
     {
@@ -1075,7 +1130,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Hollywood Bowl</h2>
-      <p>147</p>
+      <p>'The Hollywood Bowl seats something like 20,000 people' (p. 147)</p>
       `,
     },
     {
@@ -1085,7 +1140,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Laurel Canyon</h2>
-      <p>159</p>
+      <p>Attended a party at 'a house in Laurel Canyon where this guy who knew everyone was having about 2 years of winning at the race track, so he threw parties all the time and lechery for young girls was de rigueur.' (p. 159)</p>
       `,
     },
     {
@@ -1095,7 +1150,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Tropicana Motor Hotel</h2>
-      <p>171</p>
+      <p>(p. 171)</p>
       `,
     },
     {
@@ -1105,7 +1160,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Santa Monica Civic Auditorium</h2>
-      <p>215</p>
+      <p>'MacGillivray-Freeman Films premiered their final surfing film, 'Five Summer Stories,' March 24 on a Friday night at the Santa Monica Civic Auditorium to a sold-out capacity-3000 house.' (p. 215)</p>
       `,
     },
     {
@@ -1115,7 +1170,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Hollywood Branch Library</h2>
-      <p>235</p>
+      <p>'Mostly, I find myself coming out of the library with all women writers.' (p. 231)</p>
       `,
     },
     {
@@ -1125,7 +1180,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Landmark Motel</h2>
-      <p>272</p>
+      <p>'When Janis Joplin O.D.'d one Sunday at the Landmark Motel...' (p. 272)</p>
       `,
     },
     {
@@ -1134,8 +1189,8 @@ function initMap() {
       icon: icons.food,
       book: "evesHollywood",
       content: `
-      <h2>Cielito Lindo (Taquito Place)</h2>
-      <p>276</p>
+      <h2>Cielito Lindo</h2>
+      <p>Where you can get the best taquitos: 'Taquitos are much better than heroin, it's just that no one knows about them and heroin's so celebrated.' (p. 276)</p>
       `,
     },
     {
@@ -1145,7 +1200,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Our Lady Queen of Angels Catholic Church</h2>
-      <p>275</p>
+      <p>'The church acts like it doesn't even know it's the original site of the third biggest city in this country and a landmark [...] they don't think of themselves as a museum.' (p. 275)</p>
       `,
     },
     {
@@ -1155,7 +1210,17 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Union Station</h2>
-      <p>Union Station, the railroad station that is so magnificent and legendary' (p. 279)</p>
+      <p>'The railroad station that is so magnificent and legendary' (p. 279)</p>
+      `,
+    },
+    {
+      position: new google.maps.LatLng(33.943211, -118.242060),
+      map: losAngelesMap,
+      icon: icons.area,
+      book: "evesHollywood",
+      content: `
+      <h2>Watts</h2>
+      <p>‘Watts isn’t Harlem, but its ugly and smoggy and flat and plantless’ (p. 284)</p>
       `,
     },
     {
@@ -1165,7 +1230,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Watts Towers</h2>
-      <p>‘Watts isn’t Harlem, but its ugly and smoggy and flat and plantless’ (p. 284)</p>
+      <p>‘those spindly-looking grey things...’ (p. 285)</p>
       `,
     },
     {
@@ -1212,7 +1277,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Barney’s Beanery</h2>
-      <p>275</p>
+      <p>'I saw [Janis Joplin] drinking [Dos Equis beer] in Barney’s Beanery more than once' (p. 275)</p>
       `,
     },
     {
@@ -1220,8 +1285,8 @@ function initMap() {
       icon: icons.residence,
       book: "evesHollywood",
       content: `
-      <h2>Home on Formosa (approx.) </h2>
-      <p>'It has a certain rural quality' (p. 196)</p>
+      <h2>Home on Formosa</h2>
+      <p>'It has a certain rural quality, the place I lived in on Fermosa.' (p. 196) (approx. location)</p>
       `,
     },
     {
@@ -1229,8 +1294,8 @@ function initMap() {
       icon: icons.residence,
       book: "evesHollywood",
       content: `
-      <h2>Home on Cheremoya Avenue (approx.) </h2>
-      <p>Lived here with her parents 'when I first started going to L.A.C.C.' (p. 154)</p>
+      <h2>Home on Cheremoya Avenue</h2>
+      <p>Where she lived with her parents: 'when I first started going to L.A.C.C.' (p. 154)(approx. location)</p>
       `,
     },
     {
