@@ -62,7 +62,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Paramount Studios</h2>
-        <p>•	'The Lost Hour occurred on Friday, November 30, 1973, at Paramount Studios on stage #27 during the Senate Investigating Committee scene' (p. 11)</p>
+        <p>'The Lost Hour occurred on Friday, November 30, 1973, at Paramount Studios on stage #27 during the Senate Investigating Committee scene' (p. 11)</p>
         `,
     },
     {
@@ -215,7 +215,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>The Trip</h2>
-        <p>(p. 105)</p>
+        <p>'Suddenly the entire Strip was one long problem for the West Hollywood Sheriff's Department, what with-' the Trip is on this list. (p. 105)</p>
         `,
     },
     {
@@ -351,7 +351,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Margo Leavin Gallery</h2>
-        <p>She goes to an art exhibit that has come from New York (p. 189)</p>
+        <p>She goes to an art exhibit here that has come from New York (p. 189)</p>
         `,
     },
     {
@@ -508,16 +508,7 @@ function initMap() {
         <p>‘This great old, traditional diner’ (p. 318)</p>
         `,
     },
-    {
-      position: new google.maps.LatLng(34.090465, -118.384932),
-      icon: icons.nightlife,
-      book: "charming",
-      content: `
-        <h2>The Viper Room</h2>
-        <p>(p. 333)</p>
-        `,
-    },
-    {
+     {
       position: new google.maps.LatLng(34.437557, -119.254845),
       icon: icons.hotel,
       book: "charming",
@@ -560,7 +551,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>White Memorial</h2>
-        <p>'a rehab hospital not far from County [...] my sister assured me that compared to where I was, White was the Beverly Hills Hotel' (p. 366)</p>
+        <p>'a rehab hospital not far from County [...] my sister assured me that compared to where I was, White was the Beverly Hills Hotel' [after time spent in the burn intesive care unit at Los Angeles County-USC Medical Center, she transferred here] (p. 366)</p>
         `,
     },
     {
@@ -578,7 +569,7 @@ function initMap() {
       book: "charming",
       content: `
         <h2>Franklin Ave.</h2>
-        <p>'Now I was getting close to home. All I had to do was turn onto Franklin…’ (p. 291)</p>
+        <p>Driving home after dropping a lit match onto her skirt, which caught fire and caused third-degree burns all over her legs: 'Now I was getting close to home. All I had to do was turn onto Franklin…’ (p. 291)</p>
         `,
     },
     {
@@ -626,7 +617,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>Santa Monica</h2>
-      <p>(p. 53)</p>
+      <p>'Out in Santa Monica there is a huge building with many floors and lots of its own beach front.' (p. 53)</p>
       `,
     },
     {
@@ -635,7 +626,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>The Landmark Motor hotel</h2>
-      <p>Where Janis Joplin was staying when she overdosed (p. 54)</p>
+      <p>‘We went to the Landmark Motor Hotel. It was daytime. We entered the courtyard swimming area and there, in the pool, with a greyish-white Irish washerwoman complexion and wearing a black one-piece bathing suit, was Janis Joplin, floating. The blue pool flickered around her. […] A week later she died.’ (p. 54)</p>
       `,
     },
     {
@@ -671,7 +662,7 @@ function initMap() {
       book: "slowDays",
       content: `
       <h2>Laguna</h2>
-      <p>(p. 81)</p>
+      <p>'On the weekend following the night I wound up at Shawn's, we drove down to Laguna and stayed with some friends of his.' (p. 81)</p>
       `,
     },
     {
@@ -880,7 +871,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Troubadour</h2>
-      <p>‘…the spill all over the floor of the Troubadour ladies’ room’ (p. xxii)</p>
+      <p>'a smart music business bar with hardly any Mafia.' (p. 78)</p>
       `,
     },
     {
@@ -924,6 +915,15 @@ function initMap() {
       `,
     },
     {
+      position: new google.maps.LatLng(34.09916, -118.34005),
+      icon: icons.misc,
+      book: "evesHollywood",
+      content: `
+        <h2>Hollywood High School</h2>
+        <p>‘Unlike most people my age who claim to recall Elvis when they think of high school or think of high school when they hear Elvis, I can only see faces, clothes, and hear the laughter of the girls who went to my school, and the feelings—the aches and pirouettes and joys come not from music, books, fear of finals, hatred or love of teachers—but from the people who sat next to me or who I saw in the halls during the years I spent in Hollywood High.’ (p. 78)</p>
+        `,
+    },
+    {
       position: new google.maps.LatLng(34.102352, -118.319354),
       map: losAngelesMap,
       icon: icons.misc,
@@ -940,7 +940,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>The Luau</h2>
-      <p>'a ratty old crazy Tahitian place in Beverly Hills with blue lagoons and gardenias in the drinks' (p. 17)</p>
+      <p>'A ratty old crazy Tahitian place in Beverly Hills with blue lagoons and gardenias in the drinks' (p. 17)</p>
       `,
     },
     {
@@ -970,7 +970,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Josheph Le Conte Middle School</h2>
-      <p>(p. 32)</p>
+      <p>'The first year and a half I went to Le Conte Jr. High I read fairy tales.' (p. 194)</p>
       `,
     },
     {
@@ -1020,7 +1020,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Schwab’s Pharmacy</h2>
-      <p> A drugstore in Hollywood that was a popular hangout for movie industry people (p. 95P</p>
+      <p> A drugstore in Hollywood that was a popular hangout for movie industry people: ‘Thirty-six years after Evelyn Venable saw past Death, I sat in Schwab’s drinking coffee with my actor/race-track friends whom I’ve known all my life but can’t remember where from and we’re discussing impossible possibilities, frittering away the afternoon.’ (p. 95)</p>
       `,
     },
     {
@@ -1070,7 +1070,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Sunset/La Brea</h2>
-      <p>'The other day I was driving past La Brea and Sunset.' (p. 108)</p>
+      <p>'The other day I was driving past La Brea and Sunset. There are a lot of hookers around there and the competition’s gotten pretty stiff, so you’re liable to see anything coming down the street.’ (p. 108)</p>
       `,
     },
     {
@@ -1100,7 +1100,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Whisky a Go Go</h2>
-      <p>(p. 130)</p>
+      <p>‘At night they [Gram Parsons and Keith Richards] would come into town and rehearse and record at an undisclosed studio. Sometimes, if they finished early enough, they’d go to the Whisky and catch a last set. I saw them once.’ (p. 130)</p>
       `,
     },
     {
@@ -1150,7 +1150,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Tropicana Motor Hotel</h2>
-      <p>(p. 171)</p>
+      <p>'And though I'd only met [Miss Plumbkiss] once briefly in our mutual friend's weird motel room at the Tropicana Motor Hotel years before, we both remembered each other at once.' (p. 171)</p>
       `,
     },
     {
@@ -1191,6 +1191,16 @@ function initMap() {
       content: `
       <h2>Cielito Lindo</h2>
       <p>Where you can get the best taquitos: 'Taquitos are much better than heroin, it's just that no one knows about them and heroin's so celebrated.' (p. 276)</p>
+      `,
+    },
+    {
+      position: new google.maps.LatLng(34.054242, -118.253145),
+      map: losAngelesMap,
+      icon: icons.landmark,
+      book: "evesHollywood",
+      content: `
+      <h2>Bunker Hill</h2>
+      <p>'Bunker Hill was populated with bums and winos, gentlemen who all knew my mother and who sometimes could afford to live in the houses, now fallen into slums, that my mother drew.' (p. 20)</p>
       `,
     },
     {
@@ -1259,7 +1269,7 @@ function initMap() {
       book: "evesHollywood",
       content: `
       <h2>Palos Verdes (the house of Joseph Szigeti)</h2>
-      <p>'it was there that I first ate figs.' (p. 6)</p>
+      <p>'It was there that I first ate figs.' (p. 6)</p>
       `,
     },
     {
